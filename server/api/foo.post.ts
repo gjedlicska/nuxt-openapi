@@ -25,7 +25,7 @@ const registerEndpoint = () =>
           'application/json': {
             schema: registry.register('FooPostRequestSchema', requestSchema),
             example: {
-              foo: '0123456789',
+              bar: '0123456789',
             },
           },
         },
